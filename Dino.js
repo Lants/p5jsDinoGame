@@ -11,8 +11,8 @@ function Dino(){
         fill(100,100,255);
         noStroke();
         triangle(this.x, this.y - 15, this.x + 10, this.y - 5, this.x + 15, this.y - 35);
-        rect(this.x - 10, this.y - 5, 5, 5);
-        rect(this.x + 5, this.y - 5, 5, 5);
+        rect(this.x - 10, this.y - 5, 5, 5); // legs left
+        rect(this.x + 5, this.y - 5, 5, 5); //legs right
         rect(this.x - 10, this.y - 15, 20, 10);
         triangle(this.x - 10, this.y - 15, this.x - 10, this.y - 5, this.x - 20, this.y - 25);
         ellipse(this.x + 17, this.y - 29, 20, 10);
